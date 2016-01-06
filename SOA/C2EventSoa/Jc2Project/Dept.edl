@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<definitions targetNamespace="http://model/events/edl/Dept" xmlns:ns0="http://model/events/schema/Dept" xmlns="http://schemas.oracle.com/events/edl">
+   <schema-import namespace="http://model/events/schema/Dept" location="Dept.xsd"/>
+   <event-definition name="C2BCEvent">
+      <content element="ns0:C2BCEventInfo"/>
+   </event-definition>
+</definitions>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="model.C2AM">
+      <AppModuleConfig name="C2AMLocal" ApplicationName="model.C2AM" DeployPlatform="LOCAL" JDBCName="Connection1" jbo.project="model.C2Model">
+         <Security AppModuleJndiName="model.C2AM"/>
+      </AppModuleConfig>
+      <AppModuleConfig name="C2AMShared" ApplicationName="model.C2AM" DeployPlatform="LOCAL" JDBCName="Connection1" jbo.project="model.C2Model">
+         <AM-Pooling jbo.ampool.maxpoolsize="1" jbo.ampool.isuseexclusive="false"/>
+         <Security AppModuleJndiName="model.C2AM"/>
+      </AppModuleConfig>
+      <AppModuleConfig name="C2AMService" ApplicationName="model.C2AM" DeployPlatform="SI" jbo.project="model.C2Model">
+         <AM-Pooling jbo.ampool.resetnontransactionalstate="true"/>
+         <Database jbo.locking.mode="optimistic"/>
+         <Security AppModuleJndiName="model.C2AM"/>
+         <Custom JDBCDataSource="java:comp/env/jdbc/Connection1DS"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>

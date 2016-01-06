@@ -1,0 +1,17 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<wsdl:definitions
+     name="C2AMService"
+     targetNamespace="/model/common/"
+     xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:tns="/model/common/"
+     xmlns:bpws="http://schemas.xmlsoap.org/ws/2003/03/business-process/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    >
+    <plnk:partnerLinkType name="jc2Service">
+        <plnk:role name="C2AMService">
+            <plnk:portType name="tns:C2AMService"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+    <wsdl:import namespace="/model/common/" location="http://adc2180453.us.oracle.com:8111/EventC2Base-C2Model-context-root/C2AMService?wsdl"/>
+</wsdl:definitions>

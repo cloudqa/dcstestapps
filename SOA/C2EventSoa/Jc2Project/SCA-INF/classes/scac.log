@@ -1,0 +1,21 @@
+Nov 17, 2011 5:31:03 PM oracle.mds
+NOTIFICATION: PManager instance is created without multitenancy support as JVM flag "oracle.multitenant.enabled" is not set to enable multitenancy support.
+Nov 17, 2011 5:31:03 PM oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+INFO: XMLSchema incremental build enabled.
+Nov 17, 2011 5:31:03 PM com.collaxa.cube.CubeLogger info
+INFO: validating "jc2Bpel.bpel" ...
+Nov 17, 2011 5:31:04 PM oracle.integration.platform.blocks.FabricConfigManager <clinit>
+WARNING: JRF is unable to determine the current application server platform.
+Nov 17, 2011 5:31:04 PM oracle.integration.platform.blocks.WLSPlatformConfigurationProvider <clinit>
+WARNING: JRF is unable to determine the current application server platform.
+node class name com.collaxa.cube.engine.ext.bpel.v1.blocks.BPELSequenceBlock
+Nov 17, 2011 5:31:04 PM com.collaxa.cube.CubeLogger info
+INFO: Composed "jc2Bpel" in 35.6 milliseconds [nodes 7=0+7, 196.4 nodes/sec]
+Nov 17, 2011 5:31:05 PM com.collaxa.cube.CubeLogger info
+INFO: Compiled "jc2Bpel" in 1.284 seconds
+Nov 17, 2011 5:31:05 PM com.collaxa.cube.CubeLogger info
+INFO: Gathered 3 files in 0.2 milliseconds
+
+Nov 17, 2011 5:31:05 PM com.collaxa.cube.CubeLogger info
+INFO: Packaged "jc2Bpel" in 4.8 milliseconds
+

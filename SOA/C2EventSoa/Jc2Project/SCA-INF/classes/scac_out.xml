@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>69</line>
+      <col/>
+      <file>jc2Bpel.bpel</file>
+      <name>jc2Bpel.bpel</name>
+      <fix>Make sure that the return value of from-spec query is compatible with the to-spec query</fix>
+      <msg>&lt;from> value type "{http://xmlns.oracle.com/C2EventSoa/Jc2Project/jc2Bpel}process anonymous type" is not compatible with &lt;to> value type "{/model/common/types/}getDeptView1 anonymous type"</msg>
+   </Fault>
+</Faults>

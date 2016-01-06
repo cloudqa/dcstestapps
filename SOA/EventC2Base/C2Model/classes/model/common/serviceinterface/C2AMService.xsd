@@ -1,0 +1,88 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="/model/common/types/"
+     xmlns:tns="/model/common/types/" xmlns:ns0="/model/common/" xmlns:ns1="http://xmlns.oracle.com/adf/svc/types/">
+    <import namespace="http://xmlns.oracle.com/adf/svc/types/" schemaLocation="classpath:/META-INF/wsdl/BC4JService.xsd"/>
+    <import namespace="/model/common/" schemaLocation="../DeptViewSDO.xsd"/>
+    <element name="getDeptView1">
+        <complexType>
+            <sequence>
+                <element name="deptno" type="int"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getDeptView1Response">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:DeptViewSDO"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="createDeptView1">
+        <complexType>
+            <sequence>
+                <element name="deptView1" type="ns0:DeptViewSDO"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="createDeptView1Response">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:DeptViewSDO"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="updateDeptView1">
+        <complexType>
+            <sequence>
+                <element name="deptView1" type="ns0:DeptViewSDO"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="updateDeptView1Response">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:DeptViewSDO"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="deleteDeptView1">
+        <complexType>
+            <sequence>
+                <element name="deptView1" type="ns0:DeptViewSDO"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="deleteDeptView1Response">
+        <complexType>
+            <sequence/>
+        </complexType>
+    </element>
+    <element name="mergeDeptView1">
+        <complexType>
+            <sequence>
+                <element name="deptView1" type="ns0:DeptViewSDO"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="mergeDeptView1Response">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:DeptViewSDO"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findDeptView1">
+        <complexType>
+            <sequence>
+                <element name="findCriteria" type="ns1:FindCriteria"/>
+                <element name="findControl" type="ns1:FindControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findDeptView1Response">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:DeptViewSDO" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
